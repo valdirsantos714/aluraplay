@@ -3,7 +3,7 @@
 *::after {
     --azul-escuro: #154580;
     --azul-medio: #3970BE;
-    --azul-claro: #E5F1FF;
+    --azul-claro: rgb(56, 68, 228);
     --cinza-texto: #444444;
     --cinza-claro: #ECECEC;
     box-sizing: border-box;
@@ -51,8 +51,8 @@ body {
     background-image: url(../img/cabecalho/search.png);
     background-repeat: no-repeat;
     background-position: center;
-    border: 1px solid rgb(211, 211, 211);
-    background-color: #F9F9F9;
+    border: none;
+    background-color: black;
     border-left: none;
     padding: 8px 18px 5px;
     cursor: pointer;
@@ -217,7 +217,7 @@ body {
 }
 
 .videos__item:hover {
-    transform: scale(1.3);
+    transform: scale(1.1);
     background-color: var(--azul-claro);
     z-index: 2;
     transition: .5s;
@@ -287,7 +287,7 @@ body {
     }
 
     .videos__item:hover {
-        transform: scale(1.3);
+        transform: scale(1.1);
     }
 
     /* ESTILOS RODAPÉ */
