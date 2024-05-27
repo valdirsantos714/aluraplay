@@ -1,3 +1,9 @@
+# AluraPlay
+Projeto criado com o curso HTML CSS: Responsividade e Publicando o projeto da Alura
+
+## Como acessar o site
+Entre no link https://aluraplay-valdir.netlify.app/ ou clone este projeto e rode ele em sua máquina
+
 Vídeos da sessão vídeos:
 
         <li class="videos__item">
